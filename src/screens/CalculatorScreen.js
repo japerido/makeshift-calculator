@@ -70,13 +70,13 @@ const CalculatorScreen = () => {
             keyboardType="numeric"
           /> 
         </View>
-        <View style={{flexDirection: 'row', justifyContent: "space-between"}}>
+        <View style={{flexDirection: 'row', justifyContent: "center"}}>
           <Calculator name="plus" onPress={() => { setOperator('+'); }}></Calculator>
           <Calculator name="minus" onPress={() => { setOperator('-'); }}></Calculator>
           <Calculator name="times" onPress={() => { setOperator('*'); }}></Calculator>
           <Calculator name="divide" onPress={() => { setOperator('/'); }}></Calculator>
         </View>
-        <View style={{flexDirection: 'row', justifyContent: "space-between"}}>
+        <View style={{flexDirection: 'row', justifyContent: "center"}}>
 
           <TouchableOpacity
             onPress={() => {
